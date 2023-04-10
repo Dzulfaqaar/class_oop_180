@@ -32,3 +32,23 @@ public :
 	}
 };
 
+int main() {
+	Mahasiswa mhs;
+	Matakuliah mk;
+	
+	cout << "input data mahasiswa" << endl;
+	cout << "Masukan NIM: ";
+	cin >> mhs.nim;
+	cout << "Masukan nama: ";
+	cin >> mhs.nama;
+	
+	cout << "input data mata kuliah: " << endl;
+	mk.inputMK();
+
+	cout << "\nData mahasiswa: \n";
+	mhs.tampil();
+
+	cout << "\nData Matakuliah:\n";
+	mk.tampilMK();
+}
+
