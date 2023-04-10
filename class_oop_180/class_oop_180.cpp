@@ -18,11 +18,11 @@ private :
 	string namaMK;
 public :
 	void inputMK() {
-		cout << "\nMasukan jumlah SKS= ";
+		cout << "Masukan jumlah SKS= ";
 		cin >> sks;
-		cout << "\n Masukan kode MK= ";
+		cout << "Masukan kode MK= ";
 		cin >> kode;
-		cout << "\nMasukan Nama MK= ";
+		cout << "Masukan Nama MK= ";
 		cin >> namaMK;
 	}
 	void tampilMK() {
@@ -42,13 +42,13 @@ int main() {
 	cout << "Masukan nama: ";
 	cin >> mhs.nama;
 	
-	cout << "input data mata kuliah: " << endl;
+	cout << "\ninput data mata kuliah:" << endl;
 	mk.inputMK();
 
-	cout << "\nData mahasiswa: \n";
+	cout << "\nData mahasiswa:\n";
 	mhs.tampil();
 
-	cout << "\nData Matakuliah:\n";
+	cout << "\n\nData Matakuliah:";
 	mk.tampilMK();
 }
 
